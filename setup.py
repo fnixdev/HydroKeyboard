@@ -29,7 +29,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     keywords='telegram hydrogram keyboard bot userbot',
-    url='https://github.com/pystorage/hydrokeyboard',
+    url='https://github.com/fnixdev/hydrokeyboard',
     packages=['hydrokeyboard'],
     install_requires=['hydrogram', 'tgcrypto'],
     long_description=long_description,

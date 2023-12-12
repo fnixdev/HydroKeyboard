@@ -2,7 +2,7 @@
 
 # HydroKeyboard
 
-- [<b>Original Project</b>](https://github.com/pystorage/hydrokeyboard)
+- [<b>Original Project</b>](https://github.com/fnixdev/hydrokeyboard)
 - [<b>What's new?</b>](#whats-new)
 - [<b>Installation</b>](#installation)
 - [<b>Documentation</b>](#documentation)
@@ -30,7 +30,7 @@
 # Installation
 
 ```shell
-pip install hydrokeyboard
+pip install git+https://github.com/fnixdev/HydroKeyboard.git
 ```
 
 # Documentation
@@ -67,7 +67,7 @@ keyboard.add(
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/add_inline_button.png" alt="add_inline_button"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/add_inline_button.png" alt="add_inline_button"></p>
 
 ### Inline Keyboard row buttons
 
@@ -92,7 +92,7 @@ keyboard.row(
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/row_inline_button.png" alt="row_inline_button"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/row_inline_button.png" alt="row_inline_button"></p>
 
 ### Pagination inline keyboard
 
@@ -119,7 +119,7 @@ keyboard.paginate(3, 3, 'pagination_keyboard:{number}')
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/pagination_keyboard_3.png" alt="pagination_keyboard_3"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/pagination_keyboard_3.png" alt="pagination_keyboard_3"></p>
 
 #### Pagination 5 pages
 
@@ -134,7 +134,7 @@ keyboard.paginate(5, 3, 'pagination_keyboard:{number}')
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/pagination_keyboard_5.png" alt="pagination_keyboard_5"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/pagination_keyboard_5.png" alt="pagination_keyboard_5"></p>
 
 #### Pagination 9 pages
 
@@ -149,7 +149,7 @@ keyboard.paginate(9, 5, 'pagination_keyboard:{number}')
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/pagination_keyboard_9.png" alt="pagination_keyboard_9"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/pagination_keyboard_9.png" alt="pagination_keyboard_9"></p>
 
 #### Pagination 100 pages
 
@@ -164,7 +164,7 @@ keyboard.paginate(100, 100, 'pagination_keyboard:{number}')
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/pagination_keyboard_100.png" alt="pagination_keyboard_100"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/pagination_keyboard_100.png" alt="pagination_keyboard_100"></p>
 
 #### Pagination 150 pages and buttons
 
@@ -183,7 +183,7 @@ keyboard.row(
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/pagination_keyboard_150.png" alt="pagination_keyboard_150"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/pagination_keyboard_150.png" alt="pagination_keyboard_150"></p>
 
 ### Languages inline keyboard
 
@@ -225,7 +225,7 @@ keyboard.languages(
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/languages_keyboard.png" alt="languages_keyboard"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/languages_keyboard.png" alt="languages_keyboard"></p>
 
 ## Reply Keyboard
 
@@ -260,7 +260,7 @@ keyboard.add(
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/add_reply_button.png" alt="add_reply_button"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/add_reply_button.png" alt="add_reply_button"></p>
 
 ### Reply Keyboard row buttons
 
@@ -282,4 +282,4 @@ keyboard.row(ReplyButton('Reply button 5'))
 
 #### Result
 
-<p><img src="https://raw.githubusercontent.com/pystorage/hydrokeyboard/master/docs/source/images/row_reply_button.png" alt="row_reply_button"></p>
+<p><img src="https://raw.githubusercontent.com/fnixdev/hydrokeyboard/master/docs/source/images/row_reply_button.png" alt="row_reply_button"></p>
