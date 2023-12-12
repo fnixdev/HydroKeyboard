@@ -2,7 +2,7 @@
 
 # HydroKeyboard
 
-- [<b>Original Project</b>](https://github.com/fnixdev/hydrokeyboard)
+- [<b>Original Project</b>](https://github.com/pystorage/pykeyboard)
 - [<b>What's new?</b>](#whats-new)
 - [<b>Installation</b>](#installation)
 - [<b>Documentation</b>](#documentation)
